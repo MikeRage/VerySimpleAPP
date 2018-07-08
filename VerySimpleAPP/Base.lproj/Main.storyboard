@@ -69,6 +69,11 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDI-ZW-7CI">
                                 <rect key="frame" x="224" y="372" width="119" height="54"/>
                                 <color key="backgroundColor" red="1" green="0.23170071075986265" blue="0.2526859132128878" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="EUd-1Y-3Vh"/>
+                                    <constraint firstAttribute="width" constant="119" id="fwh-eL-O47"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="16" minY="8" maxX="16" maxY="8"/>
                                 <state key="normal" title="Вперед">
                                     <color key="titleColor" red="0.99734606866093822" green="1" blue="0.98498814995713602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -92,6 +97,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="nlW-Xy-FPg" firstAttribute="centerY" secondItem="dDI-ZW-7CI" secondAttribute="centerY" id="2zV-NJ-GX2"/>
                             <constraint firstItem="eSi-9r-sXa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="F4F-w4-852"/>
                             <constraint firstItem="nlW-Xy-FPg" firstAttribute="top" secondItem="gal-p6-Yuw" secondAttribute="bottom" constant="32" id="NgC-Me-l8z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eSi-9r-sXa" secondAttribute="trailing" constant="32" id="WIJ-d1-LrJ"/>
