@@ -91,7 +91,6 @@
         cell.textLabel.text = sin.title;
         return cell;
     }
-    
     return [[UITableViewCell alloc] init];
 }
 

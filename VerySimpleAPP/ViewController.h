@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Interactors.h"
+#import "Presenter.h"
+@interface ViewController : UIViewController <ViewInteractor>
 
-@interface ViewController : UIViewController
+@property (nonatomic, strong) Presenter* presenter;
 
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		667028A62164F10600ACDC10 /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 667028A52164F10600ACDC10 /* Presenter.m */; };
 		667461D420ED2AB2002FD037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667461D320ED2AB2002FD037 /* AppDelegate.m */; };
 		667461D720ED2AB2002FD037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667461D620ED2AB2002FD037 /* ViewController.m */; };
 		667461DA20ED2AB2002FD037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667461D820ED2AB2002FD037 /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		667028A12164EF1C00ACDC10 /* Interactors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interactors.h; sourceTree = "<group>"; };
+		667028A42164F10600ACDC10 /* Presenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		667028A52164F10600ACDC10 /* Presenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
 		667461CF20ED2AB2002FD037 /* VerySimpleAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerySimpleAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667461D220ED2AB2002FD037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		667461D320ED2AB2002FD037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -73,6 +77,9 @@
 				667461EB20F21F60002FD037 /* Model */,
 				667461D220ED2AB2002FD037 /* AppDelegate.h */,
 				667461D320ED2AB2002FD037 /* AppDelegate.m */,
+				667028A12164EF1C00ACDC10 /* Interactors.h */,
+				667028A42164F10600ACDC10 /* Presenter.h */,
+				667028A52164F10600ACDC10 /* Presenter.m */,
 				667461D520ED2AB2002FD037 /* ViewController.h */,
 				667461D620ED2AB2002FD037 /* ViewController.m */,
 				667461D820ED2AB2002FD037 /* Main.storyboard */,
@@ -176,6 +183,7 @@
 				667461F120F2257E002FD037 /* Values.m in Sources */,
 				667461F420F2337F002FD037 /* HelpViewController.m in Sources */,
 				667461D420ED2AB2002FD037 /* AppDelegate.m in Sources */,
+				667028A62164F10600ACDC10 /* Presenter.m in Sources */,
 				667461EA20F0F2EA002FD037 /* DropDownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

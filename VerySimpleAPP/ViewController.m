@@ -22,6 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _presenter = [Presenter new];
+    _presenter.view = self;
     _goButton.layer.cornerRadius = 8;
 }
 
@@ -29,8 +31,6 @@
     
     if([_loginEditText.text isEqualToString:@"Angel"] && [_passwordEditText.text isEqualToString:@"Demon"])
     {
-        
-        
         _errorLabel.text = @"успешно..";
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             _errorLabel.hidden = YES;
@@ -59,6 +59,7 @@
                            CGPointMake([view center].x + 20.0f, [view center].y)]];
     [[view layer] addAnimation:animation forKey:@"position"];
 }
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
     if (textField == _loginEditText) {
